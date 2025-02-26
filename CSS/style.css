@@ -152,7 +152,7 @@ section.active {
     position: relative;
     display: inline-block;
     color: transparent;
-    -webkit-text-stroke: .07rem var(--main-color);
+    -webkit-text-stroke: .07rem transparent;
     animation: display-text 16s linear infinite;
     animation-delay: calc(-4s * var(--i));
 }
